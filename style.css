@@ -36,11 +36,12 @@ h2 {
 
 .img-perfil img {
     height: 350px;
-    margin-right: 40px;
+    margin: 0px 80px 0px 40px;
 }
 
 .texto-presentacion {
     max-width: 45rem;
+    margin-right: 40px;
     
 }
 
@@ -50,22 +51,26 @@ h2 {
 }
 
 .formaciones {
-    padding: 57px 188px 57px 60px;
+    padding: 50px 0px 50px 0px;
     background-color: #ECE7E1;
     display: flex;
     align-items: center;
-/*     justify-content: space-between; */
+    justify-content: center;
+    overflow: hidden;
 }
 
 .ilu-formaciones img {
-    margin-left: 100px;
+    margin: 0px 80px 0px 40px;
     width: 480px;
 }
 
 .texto-formacion {
-    display: inline-block;
-    max-width: 43.75rem;
-    margin-left: 50px;
+    max-width: 45rem;
+    margin-right: 40px;
+}
+
+.texto-formacion h2 {
+    margin-top: 0;
 }
 
 .intereses {
@@ -73,12 +78,18 @@ h2 {
     background-color: #F6F5F1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.ilu-intereses img {
+    margin: 0px 40px 0px 40px;
+    width: 420px;
 }
 
 .texto-intereses {
-    display: inline-block;
-    width: 500px;
+    max-width: 45rem;
+    margin-right: 40px;
 }
 
 .formas-intereses {
@@ -91,7 +102,13 @@ h2 {
     background-color: #ECE7E1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.ilu-actualidad img {
+    margin: 0px 80px 0px 40px;
+    width: 425px;
 }
 
 .formas-actualidad {
@@ -101,8 +118,8 @@ h2 {
 }
 
 .texto-actualidad {
-    display: inline-block;
-    width: 500px;
+    max-width: 45rem;
+    margin-right: 40px;
 }
 
 

@@ -313,7 +313,7 @@ h2 {
         align-items: center;
         flex-direction: column;
         width: 350px;
-        margin-right: 0px;
+        margin: 0px 0px;
     }
 
     .formas-intereses{
